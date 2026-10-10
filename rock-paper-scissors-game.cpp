@@ -2,9 +2,9 @@
 #include <cstdlib>
 #include <windows.h>
 
-//using namespace std;
+using namespace std;
 
-// here is my cod
+
 
 enum enChoice{ Stone = 1, Paper = 2, Scissor = 3};
 
@@ -18,6 +18,7 @@ struct stRoundInfo{
     enWinner roundWinner;
     string roundWinnerName= "";
 
+};
 
 struct stGameResults{
 
